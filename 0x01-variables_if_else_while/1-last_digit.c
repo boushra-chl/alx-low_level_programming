@@ -4,7 +4,7 @@
 
 /**
  * main - A program that displays the last digit of a number
- * Return : 0(Success)
+ * Return: 0 (Success)
  */
 
 int main(void)
