@@ -13,7 +13,7 @@
 	if (n == 9)
 	{
 		continue;
-	}	
+	}
 	putchar(',');
 	putchar(' ');
 }
