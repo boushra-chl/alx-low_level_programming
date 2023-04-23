@@ -10,10 +10,10 @@
 
 	for (n = 0 ; n <= 8 ; n++)
 {
-	for (m = n+1 ; m <= 9 ; m++)
+	for (m = n + 1 ; m <= 9 ; m++)
 	{
-		if( n != m)
-		{	
+		if ( n != m)
+		{
 			putchar(48 + n);
 			putchar(48 + m);
 		}
@@ -23,7 +23,7 @@
 		}
 		putchar(',');
 		putchar(' ');
-	}	
+	}
 }
 	putchar('\n');
 	return (0);
