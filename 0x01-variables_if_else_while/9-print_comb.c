@@ -4,8 +4,9 @@
  * Return: 0 (Suceess)
  */
 	int main(void)
-{
-	int n;	
+{	
+	int n;
+
 	for (n = 0 ; n <= 9 ; n++)
 {
 	putchar(48 + n);
