@@ -8,19 +8,22 @@
 	int n;
 	int m;
 
-	for (n = 0 ; n <= 9 ; n++)
+	for (n = 0 ; n <= 8 ; n++)
 {
-	for (m = 0 ; m <= 9 ; m++)
-	{		
-	putchar(48 + n);
-	putchar(48 + m);
-	if (m == 9 && n == 9)
+	for (m = n+1 ; m <= 9 ; m++)
 	{
-                continue;
-	}
-	putchar(',');
-	putchar(' ');
-	}
+		if( n != m)
+		{	
+			putchar(48 + n);
+			putchar(48 + m);
+		}
+		if (n == 8 && m == 9)
+		{
+			continue;
+		}
+		putchar(',');
+		putchar(' ');
+	}	
 }
 	putchar('\n');
 	return (0);
