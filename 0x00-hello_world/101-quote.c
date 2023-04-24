@@ -1,14 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main - A program that prints a line using the function printf function
- * Return: 0 (Success)
+ * Return: 1 (Success)
  */
         int main(void)
 {
-	char ch;
-
-	char = ("and that piece of art is useful\" - Dora Korpar,");
-	putchar(ch);
-	putchar('\n');
+	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 	return (1);
 }
