@@ -6,8 +6,8 @@
 
 	void print_alphabet(void)
 {
+	/*Function that prints alphabet in lower case*/
 	char c;
-	
 	for (c = 'a' ; c <= 'z' ; c++)
 	{
 		_putchar(c);
