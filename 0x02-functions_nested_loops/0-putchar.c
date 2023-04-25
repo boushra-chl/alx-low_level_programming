@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <main.h>
 /** main - A program that prints _putchar
  * Return :0 (Success)
  */
 	int main(void)
 {
-	printf("_putchar\n");
+	_putchar("_putchar\n");
 }	
