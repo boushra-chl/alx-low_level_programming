@@ -9,7 +9,7 @@
 	int n;
 	char c;
 
-	for (n = 0 ; n <=9 ; n++)
+	for (n = 0 ; n <= 9 ; n++)
 	{
 		for (c = 'a' ; c <= 'z' ; c++)
 		{
