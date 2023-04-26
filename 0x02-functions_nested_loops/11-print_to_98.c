@@ -25,11 +25,12 @@
 	{
 		for (d = n ; d >= 98 ; d--)
 		{
-		printf("%d, ", d);
+		printf("%d", d);
 			if (d == 98)
 			{
 			continue;
 			}
+		printf(", ");	
 		}
 	}
 	printf("\n");
