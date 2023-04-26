@@ -1,6 +1,6 @@
 /**
  * add - function that adds two integers and returns the result
- * Retutn: sum result of addition (Success)
+ * Retutn: (a+b) result of addition (Success)
  * @a: integer to be added
  * @b: integer to be added
  */
