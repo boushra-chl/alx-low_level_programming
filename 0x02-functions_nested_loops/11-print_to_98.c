@@ -30,7 +30,7 @@
 			{
 			continue;
 			}
-		printf(", ");	
+		printf(", ");
 		}
 	}
 	printf("\n");
