@@ -17,9 +17,9 @@ int main(void)
 		printf("%d", d);
 		else
 		{
-		k = k + j;
-		j = k - j;
-		printf(", %d", k);
+		p = p + d;
+		d = p - d;
+		printf(", %d", p);
 		}
 	++i;
 	}
