@@ -17,27 +17,20 @@
 				q = p % 10;
 				m = p - q;
 				z =  m / 10;
+				_putchar(44);
+				_putchar(32);
 				_putchar(z + '0');
 				_putchar(q + '0');
 			}
 			else
 			{
+			if (d != 0)
+			{
+				_putchar(44);
+				_putchar(32);
+				_putchar(32);
+			}	
 				_putchar(p + '0');
-			}
-			if (d == 9)
-			{
-				continue;
-			}
-			if (p > 9)
-			{
-				_putchar(44);
-				_putchar(32);
-			}
-			else
-			{
-				_putchar(44);
-				_putchar(32);
-				_putchar(32);
 			}
 		}
 	_putchar('\n');
