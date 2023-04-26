@@ -6,6 +6,23 @@
 #include <stdio.h>
 int main(void)
 {
-int n, d;
+	int n = 0;
+	long d = 1, p = 2;
 
-if (
+	while (n < 50)
+	{
+		if (n == 0)
+		printf("%d", n);
+		else if (n == 1)
+		printf("%d", d);
+		else
+		{
+		k = k + j;
+		j = k - j;
+		printf(", %d", k);
+		}
+	++i;
+	}
+	printf("\n");
+	return (0);
+}
