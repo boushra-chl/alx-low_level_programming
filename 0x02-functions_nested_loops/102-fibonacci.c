@@ -12,9 +12,9 @@ int main(void)
 	while (n < 50)
 	{
 		if (n == 0)
-		printf("%d", n);
-		else if (n == 1)
 		printf("%ld", d);
+		else if (n == 1)
+		printf("%ld", p);
 		else
 		{
 		p = p + d;
