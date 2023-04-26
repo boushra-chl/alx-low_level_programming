@@ -1,6 +1,6 @@
 /**
  * main -  function that prints multiples of 3 and 5 below 1024
- * Return: integer, sum of all multiples
+ * Return: 0 (Success)
  */
 #include <stdio.h>
 	int main(void)
@@ -22,5 +22,5 @@
 		}
 	}
 	printf("%d\n", sum);
-	return (sum);
+	return (0);
 }
