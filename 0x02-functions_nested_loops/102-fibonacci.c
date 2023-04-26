@@ -12,16 +12,16 @@ int main(void)
 	while (n < 50)
 	{
 		if (n == 0)
-		printf("%d", n);
+		printf("%ld", n);
 		else if (n == 1)
-		printf("%d", d);
+		printf("%ld", d);
 		else
 		{
 		p = p + d;
 		d = p - d;
-		printf(", %d", p);
+		printf(", %ld", p);
 		}
-	++i;
+	++n;
 	}
 	printf("\n");
 	return (0);
