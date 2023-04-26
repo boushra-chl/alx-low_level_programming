@@ -12,7 +12,7 @@ int main(void)
 	while (n < 50)
 	{
 		if (n == 0)
-		printf("%ld", n);
+		printf("%d", n);
 		else if (n == 1)
 		printf("%ld", d);
 		else
