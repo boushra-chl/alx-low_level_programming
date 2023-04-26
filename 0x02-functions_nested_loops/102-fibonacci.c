@@ -14,7 +14,7 @@ int main(void)
 		if (n == 0)
 		printf("%ld", d);
 		else if (n == 1)
-		printf("%ld", p);
+		printf(", %ld", p);
 		else
 		{
 		p = p + d;
