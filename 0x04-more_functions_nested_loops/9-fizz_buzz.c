@@ -12,7 +12,7 @@
 {
 	int n, p, q;
 
-	for (n = 1 ; n <= 100 ; n++)
+	for (n = 1 ; n <= 99 ; n++)
 	{
 	p = n % 3;
 	q = n % 5;
@@ -33,7 +33,7 @@
 		printf("%d ", n);
 		}
 	}
-	printf("\n");
+	printf("Buzz\n");
 	return (0);
 }
 
