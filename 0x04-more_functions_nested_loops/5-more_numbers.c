@@ -5,7 +5,15 @@
 #include "main.h"
 void more_numbers(void)
 {
-char c;
+	int i, j;
 
-for (c = 48 ; c <= 57 ; c++)
-
+	for (i = 1 ; i <= 10 ; i++)
+	{
+		for (j = 0 ; j <= 14 ; j++)
+		{
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
+		}
+	_putchar('\n');
+}
