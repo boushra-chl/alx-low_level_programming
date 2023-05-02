@@ -1,4 +1,5 @@
-/**_strlen -  function that returns the length of a string
+/**
+ * _strlen -  function that returns the length of a string
  * @s: string to be checked
  * Return: integer, the lengh of the string
  */
