@@ -1,5 +1,5 @@
 /**
- * print_array -  function that prints n elements of 
+ * print_array -  function that prints n elements of
  * an array of integers followed by a new line
  * @n: number of elements to be printed
  * @a: array of elements
