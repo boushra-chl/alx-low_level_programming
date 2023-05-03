@@ -6,7 +6,7 @@
 #include "main.h"
 	void print_rev(char *s)
 {
-	int len = 0, i = 0, temp, j;
+	int len = 0, i = 0;
 
 	while (s[i] != '\0')
 	{
@@ -14,10 +14,9 @@
 	}
 		len = i;
 
-	for (j = 0 ; j < len / 2 ; j++)
+	for (i = len - 1 ; i > 0 ; i--)
 	{
-		temp = *(s + j);
-		*(s + j) = *(s + len - j - 1);
-		*(s + len - j - 1) = temp;
+		_putchar(s[i]);
 	}
+	_putchar('\n');
 }
