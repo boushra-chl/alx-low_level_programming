@@ -1,5 +1,5 @@
 /**
- * _strcat - function appends the src string to the dest string, 
+ * _strcat - function appends the src string to the dest string,
  * overwriting the terminating null byte (\0) at the end of dest,
  * and then adds a terminating null byte
  * @src: string to be concatenated
@@ -35,6 +35,6 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[len2 + len1 - 1] = '\0';
-	
+
 	return (dest);
 }
