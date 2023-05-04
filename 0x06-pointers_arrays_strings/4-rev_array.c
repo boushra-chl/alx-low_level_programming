@@ -1,5 +1,5 @@
 /**
- * reverse_array - function tha reverses the content of an array of integers, 
+ * reverse_array - function tha reverses the content of an array of integers,
  * @a: array to be reversed
  * @n: number of elements
  * Return: void
