@@ -4,6 +4,7 @@
  * @n: size of memory area to be filled
  * @src: pointer to memory area to be copied
  * @dest: pointer to memory area to be copied to
+ * Return: pointer to dest
  */
 #include "main.h"
 char *_memcpy(char *dest, char *src, unsigned int n)
