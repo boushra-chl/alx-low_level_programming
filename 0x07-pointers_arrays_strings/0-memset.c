@@ -1,5 +1,5 @@
 /**
- * _memset - function that fills the first n bytes of memory area
+ * * _memset - function that fills the first n bytes of memory area
  * pointed to by s with a constant char b
  * @n: size of memory area to be filled
  * @s: pointer to memory area
