@@ -7,29 +7,18 @@
 #include "main.h"
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0, j = 0;
-	unsigned int n = 0;
-	char *s1, *s2;
+	unsigned int i, j;
 
-	s1 = s;
-	s2 = accept;
-
-	while (s1[i] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		while (s2[j] != '\0')
+		for (j = 0; accept[j] != s[i]; j++)
 		{
-			if (s2[j] == s1[i])
-			{
-			n = n + 1;
-			break;
-			}
-		j++;
+			if (accept[j] == '\0')
+				return (i);
 		}
-	if (s[i] != accept[j])
-	{
-		break;
+
 	}
-	i++;
-	}
-	return (n);
+
+	return (i);
+
 }
