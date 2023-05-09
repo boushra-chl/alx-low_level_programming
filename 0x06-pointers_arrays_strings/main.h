@@ -5,3 +5,4 @@ char *string_toupper(char *);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 char *cap_string(char *);
+char *leet(char *);
