@@ -14,13 +14,14 @@ int i = 0;
 
 	while (*haystack)
 	{
-		for (i = 0 ; needle[i] ; i++)
+		if (haystack[i] == needle[i])
 		{
-			while (needle[i] == *haystack)
+			do
 			{
+				if (needle[i + 1] == '\0')
 				return (haystack);
-			}
-		i++;
+				i++;
+			}while (needle[i] == haystack[i]);
 		}
 	haystack++;
 	}
