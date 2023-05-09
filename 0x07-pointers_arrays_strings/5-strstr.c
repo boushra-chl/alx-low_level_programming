@@ -16,7 +16,7 @@ int i = 0;
 	{
 		for (i = 0 ; needle[i] ; i++)
 		{
-			if (needle[i] == *haystack)
+			while (needle[i] == *haystack)
 			{
 				return (haystack);
 			}
