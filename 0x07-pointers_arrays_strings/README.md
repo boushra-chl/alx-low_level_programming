@@ -1,1 +1,1 @@
-readme for more pointers and arrays
+readme in my directory

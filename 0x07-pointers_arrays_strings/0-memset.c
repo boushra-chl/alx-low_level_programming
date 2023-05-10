@@ -1,11 +1,11 @@
- /**
-  * _memset - function that fills the first n bytes of memory area
-  * pointed to by s with a constant char b
-  * @n: size of memory area to be filled
-  * @s: pointer to memory area
-  * @b: constant char
-  * Return: pointer to s
-  */
+/**
+ * _memset - function that fills the first n bytes of memory area
+ * pointed to by s with a constant char b
+ * @n: size of memory area to be filled
+ * @s: pointer to memory area
+ * @b: constant char
+ * Return: pointer to s
+ */
 #include "main.h"
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -15,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
-	return (s);
+return (s);
 }
