@@ -2,7 +2,7 @@
  * is_prime_number - function that returns 1 if the input integer
  * is a prime number otherwise returns 0
  * @n: integer
- * Return; integer 0 or 1
+ * Return: integer 0 or 1
  */
 #include "main.h"
 int is_prime_number(int n)
@@ -21,8 +21,8 @@ int is_prime_number(int n)
 
 int _prime(int n, int i)
 {
-	
-	if (i == n) 
+
+	if (i == n)
 		return (1);
 	if (n % i == 0 && i != n)
 		return (0);
