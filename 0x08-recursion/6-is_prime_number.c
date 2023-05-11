@@ -15,7 +15,7 @@ int is_prime_number(int n)
 /**
  * _prime - function that checks if a number is prime number
  * @n: integer
- * @integer, incrementer
+ * @i: integer, incrementer
  * Return: integer 1 or 0
  */
 
