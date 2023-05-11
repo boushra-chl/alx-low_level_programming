@@ -15,6 +15,7 @@ int _sqrt_recursion(int n)
  * _sqrt - function that returns the square root of a number
  * @n: integer
  * @i: integer, divisor
+ * Return: integer
  */
 
 int _sqrt(int n, int i)
