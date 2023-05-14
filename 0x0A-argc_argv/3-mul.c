@@ -2,7 +2,7 @@
  * main - function that prints a program name
  * @argc: integer size of command line arguments
  * @argv: char, pointer to command line arguments
- * Return: 1 or integer (Success)
+ * Return: 1 or 0 (Success)
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,5 +17,5 @@ int main(int argc, char *argv[])
 	}
 	mul = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", mul);
-	return (mul);
+	return (0);
 }
