@@ -5,14 +5,8 @@
  * Return: 0 (Success)
  */
 #include <stdio.h>
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__ ((unused)) *argv[])
 {
-	argc = 0;
-
-	while (argv[argc])
-	{
-		argc++;
-	}
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 	return (0);
 }
