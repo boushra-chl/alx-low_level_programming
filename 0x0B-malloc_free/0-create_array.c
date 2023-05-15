@@ -1,5 +1,5 @@
 /**
- * create_array - function that creates an array of chars 
+ * create_array - function that creates an array of chars
  * and initializes it with a specific char
  * @size: size of array
  * @c: char
@@ -10,8 +10,9 @@
 #include <stdlib.h>
 char *create_array(unsigned int size, char c)
 {
-	char* s;
+	char *s;
 	unsigned int i;
+
 	if (size == 0)
 	{
 		return (NULL);
@@ -28,4 +29,4 @@ char *create_array(unsigned int size, char c)
 		s[i] = c;
 	}
 	return (s);
-}	 
+}
