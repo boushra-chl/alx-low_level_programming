@@ -20,9 +20,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 		free(p);
 	}
-	for (i = 0; i < (nmemb * size); n++)
+	for (i = 0; i < (nmemb * size); i++)
 	{
-		((char *)(p) + i) = 0;
+		*((char *)(p) + i) = 0;
 	}
 	return (p);
 }
