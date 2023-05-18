@@ -13,7 +13,6 @@ int main(void)
 
 	concat = string_nconcat("Best ", "School !!!", 6);
 	printf("%s\n", concat);
-	printf("%d\n", _strlen(s));
 	free(concat);
 	return (0);
 }
