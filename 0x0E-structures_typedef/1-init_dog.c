@@ -1,6 +1,6 @@
 /**
  * init_dog - function that initilizes a variable of type dog
- * @struct dog: pointer to struct dog
+ * @d: pointer to struct dog
  * @name: pointer to char
  * @age: float
  * @owner: pointer to char
