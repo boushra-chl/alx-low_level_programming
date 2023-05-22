@@ -1,3 +1,5 @@
+#ifndef DOG_H
+#define DOG_H
 /**
  * struct dog - dog structure
  * @name: pointer to char
@@ -6,8 +8,6 @@
  *
  * Description: structure for dog
  */
-#ifndef _HEADER_
-#define _HEADER_
 
 struct dog
 {
