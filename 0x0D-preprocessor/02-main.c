@@ -1,5 +1,5 @@
 /**
- * main - function that prints the name of the file
+ * main - function that prints the name of the file 
  * the program is compiled from
  * Return: 0 (SUccess)
  */
