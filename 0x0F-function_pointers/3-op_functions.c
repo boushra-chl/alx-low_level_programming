@@ -35,7 +35,7 @@ int op_sub(int a, int b)
  * @b: second integer
  * Return: integer, multiplication of a and b
  */
-int mul op_mul(int a, int b)
+int op_mul(int a, int b)
 {
 	int mul = 0;
 

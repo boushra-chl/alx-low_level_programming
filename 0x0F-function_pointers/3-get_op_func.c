@@ -4,6 +4,10 @@
  * @s: pointer to char, operator past as argument to the program
  * Return: pointer to the corresponding function
  */
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "3-calc.h"
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
