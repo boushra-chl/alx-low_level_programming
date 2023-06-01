@@ -18,7 +18,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (str)
 	{
 		new_head->str = strdup(str);
-		new_head->len = _strlen(strdup(str));
+		new_head->len = strlen(strdup(str));
 	}
 	if (!new_head->str)
 	{
@@ -29,21 +29,3 @@ list_t *add_node(list_t **head, const char *str)
 	(*head) = new_head;
 	return (new_head);
 }
-/**
- * _strlen - function that return the length of a string
- * @s: string
- *
- * Return: length of string s
- */
-unsigned int _strlen(char *s)
-{
-	int i = 0;
-
-	while (*s)
-	{
-		i++;
-		s++;
-	}
-	return (i);
-}
-
