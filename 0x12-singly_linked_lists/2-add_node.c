@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node - function that adds a new node at::
+ * add_node - function that adds a new node at
  * the beginning of a list_t list
  * @head: pointer to pointer to the first node
  * @str: string to be added
