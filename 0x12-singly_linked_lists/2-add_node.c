@@ -10,13 +10,40 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	*head = malloc(sizeof(struct list_t));
-	*head->str = strdup(str);
-	*head ->len = _strlen(str);
-	if (*head == NULL)
+	list_t *new_head;
+	new_head = malloc(sizeof(list_t));
+	if (new_head == NULL)
+		return (NULL);
+	if (str)
 	{
-		free(*head);
+		new_head->str = strdup(str);
+		new_head->len = _strlen(strdup(str));
+	}
+	if (!new_head->str)
+	{
+		free(new_head);
 		return (NULL);
 	}
-	return (*head);
+	new_head->next = *head;
+	new_head = *head;
+	return (new_head);
 }
+
+/**
+ * _strlen - function that return the length of a string
+ * @s: string
+ *
+ * Return: length of string s
+ */
+unsigned int _strlen(char *s)
+{
+	int i = 0;
+
+	while (*s)
+	{
+		i++;
+		s++;
+	}
+	return (i);
+}
+
