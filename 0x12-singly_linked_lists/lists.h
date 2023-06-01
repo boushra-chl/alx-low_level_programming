@@ -5,6 +5,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * struct list - list structure
+ * @str: string
+ * @len: length of string
+ * @next: pointer to struct list
+ *
+ * structure for linked list
+ */
 struct list{
 	char *str;
 	int len;
