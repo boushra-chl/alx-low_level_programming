@@ -10,3 +10,4 @@ int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 int _sqrt_help(int n, int d);
 int check_prime (int n, int d);
+int check_palindrome(char *s, int l);
