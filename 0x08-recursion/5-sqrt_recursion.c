@@ -14,7 +14,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt_helper - finds the root square of a number
+ * _sqrt_help - finds the root square of a number
  * @n: integer
  * @d: integer, divisor
  *
