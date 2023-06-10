@@ -13,11 +13,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int add = 0;
+	int add;
 	int i;
 
 	if (argv[1] == 0)
-		printf("0\n");
+		add = 0;
 	for (argc = 1; argv[argc]; argc++)
 	{
 		for (i = 0; argv[argc][i]; i++)
