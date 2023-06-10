@@ -9,7 +9,7 @@
  * @argc: number of arguments passed
  * @argv: array of arguments passed
  *
- * Return 0 on Success and 1 on Failure
+ * Return: 0 on Success and 1 on Failure
  */
 int main(int argc, char *argv[])
 {
