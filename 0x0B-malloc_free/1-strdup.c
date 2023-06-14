@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * _strdup - function that returns a pointer to a newly allocated
@@ -18,11 +19,8 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return NULL;
-	while (str[len])
-	{
-		len++;
-	}
-	dup = malloc(len * sizeof(char));
+	len = strlen(str);
+	dup = malloc((len + 1) * sizeof(char));
 	if (dup == NULL)
 	{
 		free(dup);
