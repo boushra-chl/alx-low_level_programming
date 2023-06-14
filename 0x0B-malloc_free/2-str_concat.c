@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * str_concat - function appends the src string to the dest string, 
+ * str_concat - function appends the src string to the dest string,
  * overwriting the terminating null byte (\0) at the end of dest,
  * and then adds a terminating null byte
  * @s1: string source
@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 	if (new == NULL)
 	{
 		free(new);
-		return NULL;
+		return (NULL);
 	}
 	for (i = 0; i < len1; i++)
 		new[i] = s1[i];
