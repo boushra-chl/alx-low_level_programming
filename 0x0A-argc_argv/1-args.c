@@ -1,5 +1,5 @@
 /**
- * main - function that prints the number of arguments pased
+ * main - function that prints the number of arguments passed
  * @argc: number of arguments passed
  * @argv: array of arguments passed
  *
@@ -12,10 +12,10 @@
 int main(int argc, char *argv[])
 {
 	argc = 1;
-	while (argv[argc])
+	while(argv[argc])
 	{
 		argc++;
 	}
-	printf ("%d\n", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
