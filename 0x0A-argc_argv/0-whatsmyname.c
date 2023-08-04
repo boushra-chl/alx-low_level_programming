@@ -1,3 +1,10 @@
+/**
+ * main - function that prints the program name
+ * @argc: number of arguments passed
+ * @argv: array of arguments passed
+ * return: integer
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
