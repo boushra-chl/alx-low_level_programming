@@ -11,7 +11,8 @@
 int main(int argc, char *argv[])
 {
 	argc = 0;
-	while (argv[argc])
+
+	while(argv[argc])
 	{
 		argc++;
 	}
