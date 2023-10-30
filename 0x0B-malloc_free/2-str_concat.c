@@ -4,13 +4,13 @@
 #include <string.h>
 
 /**
- * * str_concat - function that returns a pointer to a newly
- * * allocated space in memory that contains s1 followed by s2
- * * @s1: pointer to string
- * * @s2: pointer to string
- * *
- * * Return: pointer to the concatenated string or NULL
- * */
+ * str_concat - function that returns a pointer to a newly
+ * allocated space in memory that contains s1 followed by s2
+ * @s1: pointer to string
+ * @s2: pointer to string
+ *
+ * Return: pointer to the concatenated string or NULL
+ */
 
 char *str_concat(char *s1, char *s2)
 {
@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	p = malloc((len1 + len2 + 1) * sizeof(char));
 	if (p == NULL)
 	{
-		free (p);
+		free(p);
 		return (NULL);
 	}
 	for (i = 0; i < len1; i++)
