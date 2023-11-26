@@ -10,24 +10,20 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int temp;
-	int i = 63, count = 0;
+	int bit, printed = 0;
 
-	while (i >= 0)
+	bit = sizeof(n) * 8;
+	while (bit)
 	{
-		temp = n >> i;
-		if (temp & 1)
+		if (n & 1L << --bit)
 		{
 			_putchar('1');
-			count++;
+			printed++;
 		}
-		else if (count)
+		else if (printed)
 			_putchar('0');
 	}
-	i++;
-	if (!count)
+	if (!printed)
 		_putchar('0');
 }
-
-
 
