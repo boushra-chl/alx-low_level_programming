@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
  * read_textfile - function that reads a text file and
  * prints to the POSIX standard outpout
