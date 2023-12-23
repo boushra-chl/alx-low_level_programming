@@ -11,8 +11,8 @@ int get_endianness(void)
 	struct EndiannessCheck check_endian = {1, {0}};
 
 	if (check_endian.c[0] == 1)
-		return (1);
-	else
 		return (0);
+	else
+		return (1);
 }
 
