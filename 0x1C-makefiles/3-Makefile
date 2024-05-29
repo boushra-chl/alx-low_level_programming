@@ -14,10 +14,11 @@ ${NAME}: ${OBJ}
 	${CC} -c $< -o $@
 
 clean:
-	-${RM} *~ *.swp ${NAME}
+	-${RM} *~ ${NAME}
+
 oclean:
 	-${RM} ${OBJ}
-fclean:
-	-${RM} *~ *.swp ${OBJ} ${NAME}
-re:
-	-${CC} ${SRC} -o school
+
+fclean: clean oclean
+
+re: fclean all
