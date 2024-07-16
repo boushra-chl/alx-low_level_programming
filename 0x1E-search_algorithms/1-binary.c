@@ -13,21 +13,29 @@ int binary_search(int *array, size_t size, int value)
 {
 
 	size_t  L = 0, R = size - 1;
-	index = -1;
-	size_t m = 0;
+	size_t i, m = 0;
 
 	if (array == NULL)
 		return (-1);
 	while (L <= R)
 	{
-		printf("Searching in array:")
-		for (i = L; i < R; i++)
-			printf("%d", array[i]);
-		m = floor((L + R) / 2);
-		if (array[i] < value)
+		printf("Searching in array:");
+		for (i = L; i <= R; i++)
+		{
+			if (i == R - 1)
+				printf("%d", array[i]);
+			else 
+				printf("%d, ", array[i]);
+		}
+		printf("\n");
+
+		m = (L + R) / 2;
+		if (array[m] < value)
 			L = m + 1;
-		else if (array[i] > value)
+		else if (array[m] > value)
 			R = m - 1;
 		else
 			return m;
 	}
+	return (-1);
+}
