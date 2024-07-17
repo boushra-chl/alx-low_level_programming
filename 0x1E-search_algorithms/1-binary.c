@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * binary_search - function that searches for a value in a sorted array using the Binary search algorithm
+ * binary_search - function that searches for a value using the Binary search
  * @array: pointer to the first element of the array
  * @size: number of elments in array
  * @value: value to search for
@@ -11,7 +11,6 @@
 
 int binary_search(int *array, size_t size, int value)
 {
-
 	size_t  L = 0, R = size - 1;
 	size_t i, m = 0;
 
@@ -24,7 +23,7 @@ int binary_search(int *array, size_t size, int value)
 		{
 			if (i == R - 1)
 				printf("%d", array[i]);
-			else 
+			else
 				printf("%d, ", array[i]);
 		}
 		printf("\n");
@@ -35,7 +34,7 @@ int binary_search(int *array, size_t size, int value)
 		else if (array[m] > value)
 			R = m - 1;
 		else
-			return m;
+			return (m);
 	}
 	return (-1);
 }
